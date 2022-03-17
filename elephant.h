@@ -4,15 +4,15 @@
 #include <iostream>
 using namespace std;
 
-class Elephant: public Animal
+class Elephant : public Animal
 {
-    private:
-    protected:
-    public:
-        virtual void annoncerEspece();
-        virtual void faireDuBruit();
-        void afficher();
-        void ajouterElephant();
-        Elephant(string saDdn, string sonNom);
+private:
+protected:
+public:
+    virtual void annoncerEspece();
+    virtual void faireDuBruit();
+    void afficher();
+    void ajouterElephant();
+    Elephant(string saDdn, string sonNom);
 };
 #endif
